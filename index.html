@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/mobile.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+<body>
+	<section id="popup" class="popup">
+		<div class="closeBtn">
+			<div></div>
+			<div></div>
+		</div>
+		<div class="contacs-questions__form">
+				<h1 class="contacs-questions__form-title">have any questions?</h1>
+				<form id="myForm" class="contacs-questions__form__my-self">
+					<div class="contacs-questions__form__my-self-input">
+						<div class=" contacs-questions__form__my-self-name">
+							<label for="myName">Name</label>
+							<input id="myName" placeholder="Input your name" type="text">
+						</div>
+						<div class="contacs-questions__form__my-self-mail">
+							<label for="myMail">Email</label>
+							<input id="myMail"placeholder="Input your email" type="text">
+						</div>
+					</div>
+					<div class="contacs-questions__form__my-self-text">
+						<label for="myText">Speciale Request</label>
+						<textarea id="myText" placeholder="Input your special request"></textarea>
+					</div>
+					<input type="submit" class="contacs-questions__form__my-self__btn" value="Send">
+				</form>
+			</div>
+	</section>
+	<header class="header-banner">
+		<div class="header-banner__menu">
+			<a class="header-banner__menu-logo" href="#">
+				<img src="img/Logo.svg">
+			</a>
+			<div class="burger">
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+			<ul class="header-banner__menu__lists">
+				<li class="header-banner__menu__lists-item">
+					<a href="#">À la carte</a>
+				</li>
+				<li class="header-banner__menu__lists-item">
+					<a href="#">Wijnkaart</a>
+				</li>
+				<li class="header-banner__menu__lists-item">
+					<a href="#">Lunchmenu</a>
+				</li>
+				<li class="header-banner__menu__lists-item">
+					<a href="#">Contact</a>
+				</li>
+			</ul>
+			<div class="header-banner__menu__phone">
+				<img class="header-banner__menu__phone-icon" src="img/icon/tel.svg">
+				<a class="header-banner__menu__phone-number" href="tel:+32 9 282 57 25">+32 9 282 57 25</a>
+			</div>
+		</div>
+		<div class="header-banner__content">
+			<p class="header-banner__content-descreption">OPEN EVERYDAY 6AM - 9PM</p>
+			<h1 class="header-banner__content-title">
+				A bad day with lunch is better than a good day without it.
+			</h1>
+			<div class="header-banner__content__contacts">
+				<button id="btnSend" class="header-banner__content__contacts-btn">Reserve a table</button>
+				<ul class="header-banner__content__contacts__socials">
+					<li class="header-banner__content__contacts__socials-item">
+						<a href="#">Fb</a>
+					</li>
+					<li class="header-banner__content__contacts__socials-item">
+						<a href="#">Ig</a>
+					</li>
+					<li class="header-banner__content__contacts__socials-item">
+						<a href="#">Tw</a>
+					</li>
+					<li class="header-banner__content__contacts__socials-item">
+						<a href="#">Yt</a>
+					</li>
+				</ul>				
+			</div>
+		</div>
+	</header>
+	<section class="section-schedule">
+		<ul class="section-schedule__lists">
+			<li class="section-schedule__lists-item">
+				<h2 class="section-schedule__lists-item-title">Woensdag 12/01</h2>
+				<div class="section-schedule__lists-item__descreption">
+					<p>Salade met Serrano</p>
+					<p>...</p>
+					<p>Steak Tartaar</p>
+				</div>
+			</li>
+			<li class="section-schedule__lists-item">
+				<h2 class="section-schedule__lists-item-title">Donderdag 13/01</h2>
+				<div class="section-schedule__lists-item__descreption">
+					<p>Toast Roquefort</p>
+					<p>...</p>
+					<p>Penne met Kip en Prei</p>
+				</div>
+			</li>
+			<li class="section-schedule__lists-item">
+				<h2 class="section-schedule__lists-item-title">Vrijdag 14/01</h2>
+				<div class="section-schedule__lists-item__descreption">
+					<p>Verrassing van de Chef</p>
+					<p>...</p>
+					<p>Penne met Kip en Prei</p>
+				</div>
+			</li>
+			<li class="section-schedule__lists-item">
+				<h2 class="section-schedule__lists-item-title">Vrijdag 15/01</h2>
+				<div class="section-schedule__lists-item__descreption">
+					<p>Verrassing van de Chef</p>
+					<p>...</p>
+					<p>Penne met Kip en Prei</p>
+				</div>
+			</li>
+			<li class="section-schedule__lists-item">
+				<h2 class="section-schedule__lists-item-title">Vrijdag 16/01</h2>
+				<div class="section-schedule__lists-item__descreption">
+					<p>Verrassing van de Chef</p>
+					<p>...</p>
+					<p>Penne met Kip en Prei</p>
+				</div>
+			</li>
+		</ul>
+		<div class="section-schedule__imgs">
+			<img class="section-schedule__imgs-image section-schedule__imgs-first" src="img/first-schedule.jpg">
+			<div class="section-schedule__imgs_block-back"></div>
+			<img class="section-schedule__imgs-image section-schedule__imgs-second" src="img/second-schedule.jpg">
+		</div>
+	</section>
+	
+	<section class="banner-comment">
+		<div class="swiper">
+		  	<div class="swiper-wrapper">
+			    <div class="banner-comment__my-self swiper-slide">
+			    	<img class="banner-comment__my-self-icon" src="img/icon/icon-comment.svg">
+					<h1 class="banner-comment__my-self-title">Goede service, lekker eten, toffe ambiance</h1>
+					<p class="banner-comment__my-self-content">
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+					</p>
+					<h1 class="banner-comment__my-self-author">ALAIN HEYNDRICKX</h1>
+			    </div>
+			    <div class="banner-comment__my-self swiper-slide">
+			    	<img class="banner-comment__my-self-icon" src="img/icon/icon-comment.svg">
+					<h1 class="banner-comment__my-self-title">Goede service, lekker eten, toffe ambiance</h1>
+					<p class="banner-comment__my-self-content">
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+					</p>
+					<h1 class="banner-comment__my-self-author">ALAIN HEYNDRICKX</h1>
+			    </div>
+			    <div class="banner-comment__my-self swiper-slide">
+			    	<img class="banner-comment__my-self-icon" src="img/icon/icon-comment.svg">
+					<h1 class="banner-comment__my-self-title">Goede service, lekker eten, toffe ambiance</h1>
+					<p class="banner-comment__my-self-content">
+						Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo  dolores et ea rebum. Stet clita kasd gubergren.
+					</p>
+					<h1 class="banner-comment__my-self-author">ALAIN HEYNDRICKX</h1>
+			    </div>
+		  	</div>
+		  <div class="swiper-button-prev"></div>
+		  <div class="swiper-button-next"></div>
+		</div>
+	</section>
+	<section class="section-more">
+		<div class="section-more__item">
+			<div class="section-more__item__content">
+				<h2 class="section-more__item__content-title">LEKKER ETEN</h2>
+				<div class="section-more__item__content-line"></div>
+				<p class="section-more__item__content-descreption">
+					Eten gaat niet over indruk maken op mensen. Het gaat erom dat ze zich op hun gemak voelen. Dat is onze filosofie, goed eten in een goede sfeer.
+				</p>
+			</div>
+			<img class="section-more__item-img" src="img/first-more.jpg">
+		</div>
+		<div class="section-more__item">
+			<div class="section-more__item__content">
+				<h2 class="section-more__item__content-title">TOFFE AMBIANCE</h2>
+				<div class="section-more__item__content-line"></div>
+				<p class="section-more__item__content-descreption">
+					Het creëren van de juiste sfeer is zeer belangrijk voor ons. We nemen onze tijd om te zorgen dat alle elementen bijdragen aan de juiste setting.
+				</p>
+			</div>
+			<img class="section-more__item-img" src="img/second-more.jpg">
+		</div>
+		<div class="section-more__item">
+			<div class="section-more__item__content">
+				<h2 class="section-more__item__content-title">LEKKERE COCKTAILS</h2>
+				<div class="section-more__item__content-line"></div>
+				<p class="section-more__item__content-descreption">
+					Ons doel is simpel: een gastvrije plek bieden waar u kunt genieten van een onvergetelijke cocktail, een goed gesprek en lekker eten.
+				</p>
+			</div>
+			<img class="section-more__item-img" src="img/thrid-more.jpg">
+		</div>
+	</section>
+	<section class="section-banner-interior">
+		<div class="section-banner-interior__content">
+			<div class="section-banner-interior__content__name">
+				<h1 class="section-banner-interior__content__name-title">Sfeerfoto's</h1>
+				<p class="section-banner-interior__content__name-descreption">
+					De beste manier om de sfeer te ervaren is eens langskomen.
+					In tussentijd hebben we hier alvast wat foto’s voor je klaar.
+				</p>
+			</div>
+			<div id="btn" class="section-banner-interior__content__btn-return">
+				<svg  width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M43.8958 11.9L24.8791 30.9166C22.6333 33.1625 22.6333 36.8375 24.8791 39.0833L43.8958 58.1" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+			</div>
+			<div id="btn" class="section-banner-interior__content__btn-next">
+				<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M43.8958 11.9L24.8791 30.9166C22.6333 33.1625 22.6333 36.8375 24.8791 39.0833L43.8958 58.1" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
+			</div>
+		</div>
+		<div id="banner" class="section-banner-interior__block-images">
+			<img src="img/intrerior.jpg">
+			<img src="img/intrerior.jpg">
+			<img src="img/intrerior.jpg">
+		</div>
+	</section>
+	<footer>
+		<div class="contacs-questions">
+			<div class="contacs-questions__contasts-block">
+				<h1 class="contacs-questions__contasts-block-title">Contacts</h1>
+				<div class="contacs-questions__contasts-block__descreption">
+					<div class="contacs-questions__contasts-block__descreption-icon">
+						<img src="img/icon/phone-white.svg">
+					</div>
+					<div class="contacs-questions__contasts-block__descreption-content">
+						<label>Phone Number</label>
+						<p>+32 9 282 57 25</p>
+					</div>
+				</div>
+				<div class="contacs-questions__contasts-block__descreption">
+					<div class="contacs-questions__contasts-block__descreption-icon">
+						<img src="img/icon/mail-white.svg">
+					</div>
+					<div class="contacs-questions__contasts-block__descreption-content">
+						<label>Email</label>
+						<p>info@email.com</p>
+					</div>
+				</div>
+				<div class="contacs-questions__contasts-block__descreption">
+					<div class="contacs-questions__contasts-block__descreption-icon">
+						<img src="img/icon/clock-white.svg">
+					</div>
+					<div class="contacs-questions__contasts-block__descreption-content">
+						<label>Opening Hours</label>
+						<p>Everyday from 6 AM - 9 PM</p>
+					</div>
+				</div>
+				<div class="contacs-questions__contasts-block__descreption">
+					<div class="contacs-questions__contasts-block__descreption-icon">
+						<img src="img/icon/adres-white.svg">
+					</div>
+					<div class="contacs-questions__contasts-block__descreption-content">
+						<label>Map Street</label>
+						<p>Jl. Raya Surabaya 2787</p>
+					</div>
+				</div>
+			</div>
+			<div class="contacs-questions__form">
+				<h1 class="contacs-questions__form-title">have any questions?</h1>
+				<form id="myForm" class="contacs-questions__form__my-self">
+					<div class="contacs-questions__form__my-self-input">
+						<div class=" contacs-questions__form__my-self-name">
+							<label for="myName">Name</label>
+							<input id="myName" placeholder="Input your name" type="text">
+						</div>
+						<div class="contacs-questions__form__my-self-mail">
+							<label for="myMail">Email</label>
+							<input id="myMail"placeholder="Input your email" type="text">
+						</div>
+					</div>
+					<div class="contacs-questions__form__my-self-text">
+						<label for="myText">Speciale Request</label>
+						<textarea id="myText" placeholder="Input your special request"></textarea>
+					</div>
+					<input type="submit" class="contacs-questions__form__my-self__btn" value="Send">
+				</form>
+			</div>
+		</div>
+		<div id="map"></div>
+		<div class="contacs-questions__footer">
+			<a class="contacs-questions__footer-logo" href="#">
+				<img src="img/logo-footer.svg">
+			</a>
+			<div class="contacs-questions__footer-social">
+				<a href="#">Fb</a>
+				<a href="#">Ig</a>
+				<a href="#">Tw</a>
+				<a href="#">Yt</a>
+			</div>
+		</div>
+	</footer>
+
+</body>
+<script src="js/script.js"></script>
+<script src="js/swipe-interior.js"></script>
+<script type="text/javascript" charset="utf-8" 
+	src="https://api-maps.yandex.ru/2.1/?apikey=3efcc96b-ae06-4b2a-bb2f-23f40b085729&lang=ru_RU"></script>
+<script src="js/map.js"></script>
+</html>
